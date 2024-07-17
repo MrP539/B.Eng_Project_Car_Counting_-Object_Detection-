@@ -48,9 +48,9 @@ View [http://localhost:4200](http://localhost:4200) on the browser.
 1. ติดตั้ง Anaconda เพื่อติดตั้ง Python โดยเราจะทำการติดตั้งผ่าน Anaconda และเพื่อสร้างสภาพแวดล้อมที่จะแยกแต่ละโปรเจคออกจากกัน (Virtual Environment)
 •	โดยดาวน์โหลดจาก https://www.anaconda.com/download
 •	สร้างสภาพแวดล้อมเพื่อติดตั้ง ไลบรารี่ ต่างๆในโครงงาน
-o	โดยเริ่มจากเปิด Anaconda prompt
+o	โดยเริ่มจากเปิด Anaconda prompt\n
 ![image](https://github.com/user-attachments/assets/f8b8ab89-a33a-48bf-a715-aebd9214b3f1)
-
+\n
 o	สร้างสภาพแวดล้อม
 ```bash
 conda create -n my_eny python=3.10.11
