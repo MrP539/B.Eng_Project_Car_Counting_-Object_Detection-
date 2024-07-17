@@ -50,6 +50,7 @@ View [http://localhost:4200](http://localhost:4200) on the browser.
 •	สร้างสภาพแวดล้อมเพื่อติดตั้ง ไลบรารี่ ต่างๆในโครงงาน
 o	โดยเริ่มจากเปิด Anaconda prompt
 ![image](https://github.com/user-attachments/assets/f8b8ab89-a33a-48bf-a715-aebd9214b3f1)
+
 o	สร้างสภาพแวดล้อม
 ```bash
 conda create -n my_eny python=3.10.11
