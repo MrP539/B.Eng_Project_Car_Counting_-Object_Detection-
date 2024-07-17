@@ -41,7 +41,7 @@ npm install
 
 Run the *main server*.
 ```bash
-CORS=1 node server
+node server
 ```
 View [http://localhost:3000](http://localhost:3000) on the browser.
 
