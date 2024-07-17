@@ -22,7 +22,7 @@ node server
 
 View [http://localhost:3000](http://localhost:3000) on the browser.
 
-# Front-end
+## Front-end
 If you want to modify the front-end, go to *react-src* folder via the terminal.
 
 ```bash
