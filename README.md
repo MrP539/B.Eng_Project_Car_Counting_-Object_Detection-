@@ -7,7 +7,7 @@ module.exports = {
 };
 ```
 
-Back-end
+## Back-end
 Install the dependencies via the terminal.
 
 ```bash
