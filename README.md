@@ -16,24 +16,29 @@ npm install
 ```
 
 Run the *main server*.
+```bash
 node server
+```
 
 View [http://localhost:3000](http://localhost:3000) on the browser.
 
 # Front-end
 If you want to modify the front-end, go to *react-src* folder via the terminal.
 
+```bash
 cd react_server
 cd react-src
-
+```
 
 Install the dependencies required by React.
+```bash
 npm install
-
+```
 
 Run the *development server* for React.
+```bash
 npm start
-
+```
 
 View [http://localhost:4200](http://localhost:4200) on the browser.
 
