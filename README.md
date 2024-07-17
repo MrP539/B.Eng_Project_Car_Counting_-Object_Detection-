@@ -1,4 +1,4 @@
-## react_server
+# react_server
 
 The *config* folder contains a file named *db.js*. Before running locally, change the value of `db` as seen in the code below. *Make sure MongoDB service is running.*
 ```js
