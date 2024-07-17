@@ -83,6 +83,28 @@ pip install -r "requirement.txt"
 
 โดยไฟล์ requirement_by_MrS.txt นี้ผู้จัดทำได้ทำการสร้างไฟล์เพื่อติดตั้งไลบรารี่ทั้งหมดที่ต้องใช้ในระบบจดจำทะเบียนรถตรวจนับและบันทึกรถเข้าออกไว้แล้ว
 
+## การเปิด Python Server 
+
+o	โดยเริ่มจากเปิด Anaconda prompt:
+
+![image](https://github.com/user-attachments/assets/f8b8ab89-a33a-48bf-a715-aebd9214b3f1)
+
+
+
+
+o	activate สภาพแวดล้อม
+
+```bash
+conda activate my_eny
+```
+
+o	เปิดใช้งาน Python Server
+
+```bash
+python Main_API_Server.py
+```
+
+
 
 
 
