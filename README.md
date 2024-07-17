@@ -1,6 +1,6 @@
 # react_server
 
-ไปที่ react_server/coonfig/db.js ก่อนที่จะรันโปรเจ็กต์ในเครื่องของคุณ ให้เปลี่ยนค่าของ db ตาม MongolDB ของผู้ใช้งาน ตรวจสอบให้แน่ใจว่าบริการ MongoDB กำลังทำงานอยู่ ดังเช่นตัวอย่าง
+ไปที่ react_server/config/db.js ก่อนที่จะรันโปรเจ็กต์ในเครื่องของคุณ ให้เปลี่ยนค่าของ db ตาม MongolDB ของผู้ใช้งาน ตรวจสอบให้แน่ใจว่าบริการ MongoDB กำลังทำงานอยู่ ดังเช่นตัวอย่าง
 ```js
 module.exports = {
   db: 'mongodb://localhost/mern-crud'
