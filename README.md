@@ -32,7 +32,7 @@ cd react-src
 
 Install the dependencies required by React.
 ```bash
-npm install
+npm install --force
 ```
 
 Run the *development server* for React.
