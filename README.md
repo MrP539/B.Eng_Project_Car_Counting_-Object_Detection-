@@ -73,6 +73,8 @@ conda install pytorch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 pytorch-cuda=
 
 2.ดาวน์โหลดไฟล์ที่จำเป็นในระบบจดจำทะเบียนรถตรวจนับและบันทึกรถเข้าออก
 โดยสามารถดาวน์โหลดจาก https://github.com/MrP539/MrP539-B.Eng_Project_Car_Cpunting
+
+
 3.ติดตั้งไลบรารี่ทั้งหมด 
 ```bash
 pip install -r "requirement.txt"
