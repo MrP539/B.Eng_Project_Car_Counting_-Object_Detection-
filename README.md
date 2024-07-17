@@ -78,7 +78,7 @@ conda install pytorch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 pytorch-cuda=
 
 3.ติดตั้งไลบรารี่ทั้งหมด 
 ```bash
-pip install -r "requirement.txt"
+pip install -r "requirement_by_MrS.txt"
 ```
 
 โดยไฟล์ requirement_by_MrS.txt นี้ผู้จัดทำได้ทำการสร้างไฟล์เพื่อติดตั้งไลบรารี่ทั้งหมดที่ต้องใช้ในระบบจดจำทะเบียนรถตรวจนับและบันทึกรถเข้าออกไว้แล้ว
