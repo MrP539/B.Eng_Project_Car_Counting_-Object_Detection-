@@ -1,0 +1,134 @@
+.Door-header {
+  background-color: #222;
+  color: #ccc;
+  margin-bottom: 25px;
+  padding: 20px 20px 15px;
+  text-align: center;
+}
+
+.chart-header {
+  font-size: 1.5vw; /* กำหนดขนาดตัวอักษรเป็น 3% ของความกว้างของหน้าจอ */
+}
+
+
+.table-container {
+  width: 30vw; /* กำหนดความกว้างของตารางเป็น 30% ของความกว้างของหน้าจอ */
+  max-width: 100%; /* กำหนดความกว้างสูงสุดเท่ากับ 100% ของความกว้างของหน้าจอ */
+  max-height: 100px; /* กำหนดความสูงสูงสุดของตารางเท่ากับ 100px */
+}
+
+table {
+  width: 100%; /* กำหนดความกว้างของตารางเป็น 100% ของพื้นที่ที่กำหนดไว้ */
+  height: 50px; /* กำหนดความสูงของตารางเป็น 50px */
+}
+
+.menu-item-header {
+  font-size: 3vw; /* กำหนดขนาดตัวอักษรเป็น 2% ของความกว้างของหน้าจอ */
+}
+
+.menu-button {
+  font-size: 1.5vw; /* กำหนดขนาดตัวอักษรของปุ่มเป็น 1.5% ของความกว้างของหน้าจอ */
+  /* button-Size: 1.5vw; */ /* ไม่มี property ที่ชื่อว่า button-Size ใน CSS */
+}
+
+.navbar-nav {
+  display: flex; /* เปลี่ยนเป็น flex container */
+  flex-grow: 1; /* ทำให้ขยายขนาดเพื่อเต็มพื้นที่ของ Navbar */
+  justify-content: flex-end; /* จัดเรียงรายการเมนูที่อยู่ใน container ไปทางด้านขวา */
+  margin-Left: 0px; /* กำหนดระยะห่างด้านขวาของ Navbar */
+  margin-bottom: 0; /* ลบ margin-bottom */
+}
+
+.navbar-nav1 {
+  display: flex; /* เปลี่ยนเป็น flex container */
+  flex-grow: 1; /* ทำให้ขยายขนาดเพื่อเต็มพื้นที่ของ Navbar */
+  justify-content: flex-end; /* จัดเรียงรายการเมนูที่อยู่ใน container ไปทางด้านขวา */
+  margin-left: 0px; /* กำหนดระยะห่างด้านขวาของ Navbar */
+  margin-bottom: 0; /* ลบ margin-bottom */
+}
+
+.nav1-item {
+  display: inline-block; /* เพื่อให้สามารถกำหนด margin ได้ */
+  margin: 10px; /* กำหนดระยะห่างระหว่างลิงก์ */
+  vertical-align: bottom; /* จัดให้ข้อความอยู่ด้านล่างของพื้นที่ที่กำหนด */
+  line-height: 1.5; /* กำหนดความสูงของบรรทัด */
+}
+
+.nav1-link {
+  color: white; /* เปลี่ยนสีข้อความเป็นสีขาว */
+}
+
+
+
+
+
+/* ปรับขนาดตัวอักษรเมื่อหน้าจอมีความกว้างน้อยกว่า 768px */
+@media (max-width: 768px) {
+  .chart-header {
+    font-size: 10vw; /* กำหนดขนาดตัวอักษรเป็น 5% ของความกว้างของหน้าจอ */
+  }
+  .table-container {
+      width: 90vw; /* กำหนดความกว้างของตารางเป็น 90% ของความกว้างของหน้าจอ */
+  }
+  .menu-item-header {
+    font-size: 10vw; /* กำหนดขนาดตัวอักษรเป็น 4% ของความกว้างของหน้าจอ */
+  }
+
+  .menu-button {
+    font-size: 10vw; /* กำหนดขนาดตัวอักษรของปุ่มเป็น 3% ของความกว้างของหน้าจอ */
+  }
+}
+.modal-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.modal-content {
+  margin: auto;
+}
+.new-modal-container {
+  position: absolute; /* or relative, fixed, etc. based on your layout */
+  top: 50px; /* adjust as needed */
+  right: 20px; /* adjust as needed */
+}
+.custom-bg {
+  background-color: #bbdefb !important;
+}
+
+.custom-text {
+  color: #0d47a1 !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.p-2 {
+  padding: 0.5rem !important;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.justify-content-between {
+  justify-content: space-between !important;
+}
+
+
+
+

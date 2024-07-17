@@ -1,0 +1,46 @@
+/* VideoUploader.css */
+.upload-container {
+  background-color: black;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.dropzone {
+  border: 1px solid rgb(251, 252, 251); /* ใส่กรอบสีเขียวที่โปร่งใส */
+  border-radius: 4px;
+  padding: 20px;
+  cursor: pointer;
+  background-color: #000000; /* สีดำ */
+  color: #ffffff; /* สีข้อความ */
+}
+
+.dropzone p {
+  margin: 0;
+}
+
+.selected-file {
+  margin-top: 0px;
+  color: #ffffff; /* สีข้อความ */
+}
+.background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.react-clock {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

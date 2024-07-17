@@ -1,0 +1,15 @@
+.custom-modal .modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .custom-modal .modal-content {
+    margin: auto;
+  }
+  .new-modal-container {
+    position: absolute; /* or relative, fixed, etc. based on your layout */
+    top: 50px; /* adjust as needed */
+    right: 20px; /* adjust as needed */
+  }

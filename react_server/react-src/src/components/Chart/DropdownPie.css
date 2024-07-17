@@ -1,0 +1,16 @@
+/* DropdownPie.css */
+
+/* ตั้งค่าขนาดของ DropdownPie */
+.dropdownPie {
+    width: 200px; /* ปรับขนาดความกว้างตามที่ต้องการ */
+    color: #0d47a1 ;
+    background-color: #0d47a1
+  }
+  .custom-dropdown .menu {
+    background-color: white !important; /* Background color for the dropdown menu */
+  }
+  
+  .custom-dropdown .item {
+    color: #0d47a1 !important; /* Text color for dropdown items */
+  }
+  

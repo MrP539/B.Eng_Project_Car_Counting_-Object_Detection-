@@ -1,0 +1,31 @@
+.custom-modal .modal-content {
+    background-color: #f8f9fa; /* สีพื้นหลังของ Modal */
+  }
+  
+  .custom-modal .custom-header {
+    background-color: #252525; /* สีพื้นหลังของ Header */
+    color: #ffffff; /* สีของข้อความใน Header */
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-text {
+    margin-left: 10px; /* ระยะห่างระหว่าง icon กับข้อความ */
+  }
+  
+  .profile-button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+  }
+  
+  .profile-icon {
+    font-size: 40px;
+    border-radius: 50%; /* กำหนดให้ icon เป็นรูปวงกลม */
+    background-color: grey; /* สีพื้นหลังของ icon */
+    padding: 10px;
+    color: whitesmoke; /* สีของ icon */
+  }
