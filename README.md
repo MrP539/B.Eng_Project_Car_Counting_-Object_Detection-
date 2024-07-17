@@ -10,8 +10,10 @@ module.exports = {
 # Back-end
 Install the dependencies via the terminal.
 
+```bash
 cd react_server
 npm install
+```
 
 Run the *main server*.
 node server
