@@ -1,6 +1,6 @@
 # react_server
 
-The *config* folder contains a file named *db.js*. Before running locally, change the value of `db` as seen in the code below. *Make sure MongoDB service is running.*
+โฟลเดอร์ config มีไฟล์ชื่อ db.js ก่อนที่จะรันโปรเจ็กต์ในเครื่องของคุณ ให้เปลี่ยนค่าของ db ตามที่เห็นในโค้ดด้านล่างนี้ ตรวจสอบให้แน่ใจว่าบริการ MongoDB กำลังทำงานอยู่
 ```js
 module.exports = {
   db: 'mongodb://localhost/mern-crud'
@@ -8,39 +8,40 @@ module.exports = {
 ```
 
 ## Back-end
-Install the dependencies via the terminal.
+ติดตั้ง dependencies ผ่านทาง terminal:
 
 ```bash
 cd react_server
 npm install
 ```
 
-Run the *main server*.
+รัน main server:
 ```bash
 node server
 ```
 
-View [http://localhost:3000](http://localhost:3000) on the browser.
+เปิด http://localhost:3000 ในเบราว์เซอร์
+
 
 ## Front-end
-If you want to modify the front-end, go to *react-src* folder via the terminal.
+ถ้าต้องการแก้ไข front-end ไปที่โฟลเดอร์ react-src ผ่านทาง terminal:
 
 ```bash
 cd react_server
 cd react-src
 ```
 
-Install the dependencies required by React.
+ติดตั้ง dependencies ที่จำเป็นสำหรับ React:
 ```bash
 npm install --force
 ```
 
-Run the *development server* for React.
+รัน development server สำหรับ React:
 ```bash
 npm start
 ```
 
-View [http://localhost:4200](http://localhost:4200) on the browser.
+เปิด http://localhost:4200 ในเบราว์เซอร์
 
 # python server
 
