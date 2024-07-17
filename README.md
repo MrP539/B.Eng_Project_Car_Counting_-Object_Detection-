@@ -1,4 +1,4 @@
-## React_Server
+## react_server
 
 The *config* folder contains a file named *db.js*. Before running locally, change the value of `db` as seen in the code below. *Make sure MongoDB service is running.*
 ```js
@@ -9,7 +9,8 @@ module.exports = {
 
 # Back-end
 Install the dependencies via the terminal.
-cd React_Server
+
+cd react_server
 npm install
 
 Run the *main server*.
@@ -20,7 +21,7 @@ View [http://localhost:3000](http://localhost:3000) on the browser.
 # Front-end
 If you want to modify the front-end, go to *react-src* folder via the terminal.
 
-cd React_Server
+cd react_server
 cd react-src
 
 
